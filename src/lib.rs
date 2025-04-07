@@ -30,6 +30,8 @@ pub fn flood_fill(
         return data;
     }
 
+    
+
     let mut visited = vec![false; width * height];
     let mut queue = VecDeque::new();
 
