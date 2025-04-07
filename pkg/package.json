@@ -1,0 +1,15 @@
+{
+  "name": "floodfill",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "floodfill_bg.wasm",
+    "floodfill.js",
+    "floodfill.d.ts"
+  ],
+  "main": "floodfill.js",
+  "types": "floodfill.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
